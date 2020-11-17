@@ -49,6 +49,7 @@ const About = () => {
                 backgroundColor='gray.400'
                 height='100%'
                 color='black'
+                opacity='90%'
                 padding='1rem'
             >
                 <Text fontSize='md' fontWeight='600' fontSize='1rem'>

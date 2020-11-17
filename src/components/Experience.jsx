@@ -1,4 +1,4 @@
-import { Box, Text } from '@chakra-ui/core';
+import { Box, Text, Badge } from '@chakra-ui/core';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -17,9 +17,11 @@ const Experience = () => {
             >
                 <h3 className="vertical-timeline-element-title">Programming Student</h3>
                 <h4 className="vertical-timeline-element-subtitle">Tumo Creative Technologies</h4>
-                <p>
-                Programming, JavaScript, HTML, CSS3, PHP, SCSS
-                </p>
+                <Badge margin={2} variantColor="cyan">Programming</Badge>
+                <Badge margin={2} variantColor="yellow">JavaScript</Badge>
+                <Badge margin={2} variantColor="purple">HTML</Badge>
+                <Badge margin={2} variantColor="gray">CSS3</Badge>
+                <Badge margin={2} variantColor="blue">PHP</Badge>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -31,9 +33,11 @@ const Experience = () => {
             >
                 <h3 className="vertical-timeline-element-title">Web Development student</h3>
                 <h4 className="vertical-timeline-element-subtitle">IT-KAMASUTRA</h4>
-                <p>
-                React JS, Redux, React-Redux, CSS, Node JS
-                </p>
+                <Badge margin={2} variantColor="red">React JS</Badge>
+                <Badge margin={2} variantColor="green">Redux</Badge>
+                <Badge margin={2} variantColor="orange">React-Redux</Badge>
+                <Badge margin={2} variantColor="pink">Node JS</Badge>
+                <Badge margin={2} variantColor="blue">CSS</Badge>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -45,9 +49,10 @@ const Experience = () => {
             >
                 <h3 className="vertical-timeline-element-title">Front-End student</h3>
                 <h4 className="vertical-timeline-element-subtitle">Teacher: Tigran Arshakyan</h4>
-                <p>
-                React JS, Redux, JavaScript, HTML, CSS3, SCSS
-                </p>
+                <Badge margin={2} variantColor="cyan">React JS</Badge>
+                <Badge margin={2} variantColor="yellow">Redux</Badge>
+                <Badge margin={2} variantColor="purple">TailWind</Badge>
+                <Badge margin={2} variantColor="gray">Bootstrap</Badge>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -59,9 +64,11 @@ const Experience = () => {
             >
                 <h3 className="vertical-timeline-element-title">Junior Front-End Intern</h3>
                 <h4 className="vertical-timeline-element-subtitle">Arshakyan Company Limited</h4>
-                <p>
-                Vue, React, Redux, TailWind, Chakra
-                </p>
+                <Badge margin={2} variantColor="red">React JS</Badge>
+                <Badge margin={2} variantColor="green">Redux</Badge>
+                <Badge margin={2} variantColor="orange">Vue</Badge>
+                <Badge margin={2} variantColor="pink">TailWind</Badge>
+                <Badge margin={2} variantColor="blue">Chakra</Badge>
             </VerticalTimelineElement>                      
             </VerticalTimeline>  
         </Box>      

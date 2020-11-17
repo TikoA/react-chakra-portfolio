@@ -11,7 +11,7 @@ function Welcome() {
         alignItems='center' 
         width='100%' 
         flexDirection='column'
-        backgroundColor='orange.400' 
+        backgroundColor='yellow.400' 
         height='100vh'
         color='gray.800'
       >
